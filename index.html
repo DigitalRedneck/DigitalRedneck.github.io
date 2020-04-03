@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__top">
           <div class="logo">
-            <a class="logo__link" href="#">
+            <a class="logo__link"  href="#">
               <img class="logo__img" src="images/logo.png" alt="logo" />
             </a>
           </div>
@@ -38,7 +39,7 @@
             imperdiet.
           </div>
           <div class="header__inner-buttons">
-            <button class="btn header__btn" name="get_started">
+            <button class="btn header__btn" data-fancybox data-src="#register__form" name="get_started">
               Get Started
             </button>
             <button class="btn header__btn" name="learn_more">
@@ -547,8 +548,19 @@
         Page layout by dkorelskiy
       </div>
     </footer>
+
+    <div style="display: none;" id="register__form">
+      <h2>Hello</h2>
+      <p>You are awesome.</p>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
+
+
+    
+
   </body>
 </html>

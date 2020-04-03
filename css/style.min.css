@@ -1307,6 +1307,23 @@ template {
   font-size: 16px;
 }
 
+#register__form {
+  background-color: #161616;
+  color: #fefefe;
+  border-radius: 10%;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+#register__form .fancybox-close-small:hover {
+  color: #d70030;
+}
+
+#register__form h2 {
+  color: #12c2e9;
+  font-weight: 700;
+}
+
 @media (max-width: 1200px) {
   .header__top {
     display: block;
